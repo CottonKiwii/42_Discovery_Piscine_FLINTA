@@ -4,16 +4,17 @@ body {
 }
 
 p {
+    margin: 0;
 	text-align: center;
-	font-size: small;
+	font-size: xxx-large;
 	font-weight: bold;
+    text-shadow: 2px 2px #FF0000;
 }
 
 .parallax {
 	height: 100vh;
 
-	background-image: url("https://noisypixel.net/wp-content/uploads/2023/12/koromaru.webp");
-	background-attachement: fixed;
+	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 
@@ -22,9 +23,26 @@ p {
     align-items: center;
 }
 
+#koromaru {
+	background-image: url("https://noisypixel.net/wp-content/uploads/2023/12/koromaru.webp");
+}
+
 #box {
 	background-color: black;
-	height: 1000px;
+	height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#morgana {
+    background-image: url("https://images8.alphacoders.com/121/thumb-1920-1210765.png");
+    color: white;
+}
+
+#box p {
+    color: white;
 }
 
 
